@@ -24,7 +24,7 @@ si no puede encontrar el campo dentro del fichero devuelve -1, si no puede abrir
 
 # Example
 
-## In plain text:
+## In plain text file "test.conf":
 
 Field1=foobarstring
 Field2=34
