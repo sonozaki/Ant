@@ -50,21 +50,29 @@ int get_string(char file_conf[], char subject_i[], char value_i[]) {
 		
  		fgets(buffer,file_line_size,file);
  		if (buffer[0]=='#') continue;
+ 		
 		x=0;
+		
 		for (x=0; x<subject_size; x++) {
 			if(buffer[x]=='=') break;
 			subject[x]=buffer[x];
 		}
+		
 		y=0;
+		
 		for (x=x+1; x<file_line_size; x++) {		
 			if(buffer[x]=='\n') break;
 			value[y]=buffer[x];
 			y++;
-
 		}
 		
-		if (strcmp(subject_i, subject)==0) { strcpy(value_i, value); fclose(file); return(0); }
+		if (strcmp(subject_i, subject)==0) {		
+			 strcpy(value_i, value); 
+			 fclose(file); 
+			 return(0); 
+			 }
  	}
+ 	
 	fclose(file);
 	return(-1);
 }
@@ -98,19 +106,18 @@ int get_int(char file_conf[], char subject_i[]) {
 			if(buffer[x]=='=') break;
 			subject[x]=buffer[x];
 		}
+		
 		y=0;
+		
 		for (x=x+1; x<file_line_size; x++) {		
 			if(buffer[x]=='\n') break;
 			value[y]=buffer[x];
 			y++;
-
 		}
 		
 		if (strcmp(subject_i, subject)==0) {
-			
 			fclose(file); 
 			return(atoi(value));
-			
 			}
  	}
 	
