@@ -15,7 +15,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #include <string.h>
 #include "ant.h"
 
-int get_value_string(char file_conf[], char subject_i[], char value_i[]) {
+int get_string(char file_conf[], char subject_i[], char value_i[]) {
 	
 	FILE * file;
 
@@ -61,7 +61,7 @@ int get_value_string(char file_conf[], char subject_i[], char value_i[]) {
 	return(-1);
 }
 
-int get_value_int(char file_conf[], char subject_i[]) {
+int get_int(char file_conf[], char subject_i[]) {
 	
 	FILE * file;
 
