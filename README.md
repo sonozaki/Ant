@@ -10,7 +10,7 @@ If it can not find the field inside the file it returns -1, if it can not open t
 Get_int -> return the value of an int field, 
 If it can not find the field inside the file it returns -1, if it can not open the file -2, if no error occurs it returns 0
 
-# Spanish
+# Español
 
 Esta biblioteca sirve para extraer información de un archivo de configuración, el objetivo de ant es producir el software más pequeño posible para dicha tarea.
 
