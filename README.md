@@ -8,7 +8,7 @@ Get_string -> get the value of a string field and copy it to the specified strin
 If it can not find the field inside the file it returns -1, if it can not open the file -2, if no error occurs it returns 0
 
 Get_int -> return the value of an int field, 
-If it can not find the field inside the file it returns -1, if it can not open the file -2, if no error occurs it returns 0
+If it can not find the field inside the file it returns -1, if it can not open the file -2
 
 # Español
 
@@ -20,7 +20,7 @@ get_string -> obtiene el valor de un campo string y lo copiará al string expeci
 sino puede encontrar el campo dentro del fichero devuelve -1, sino puede abrir el fichero -2, sino se produce ningún error devuelve 0
 
 get_int -> devuelve el valor de un campo int, 
-si no puede encontrar el campo dentro del fichero devuelve -1, si no puede abrir el fichero -2, si no se produce ningún error devuelve 0
+si no puede encontrar el campo dentro del fichero devuelve -1, si no puede abrir el fichero -2
 
 # Example
 
