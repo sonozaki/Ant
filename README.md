@@ -8,7 +8,7 @@ Get_string -> get the value of a string field and copy it to the specified strin
 If it can not find the field inside the file it returns -1, if it can not open the file -2, if no error occurs it returns 0.
 
 Get_int -> return the value of an int field, 
-If it can not find the field inside the file it returns -1, if it can not open the file returns -2.
+If it can not find the field inside the file it returns -1, if it can not open the file it returns -2.
 
 # Español
 
