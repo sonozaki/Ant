@@ -10,8 +10,9 @@ If it can not find the field inside the file it returns -666, if it can not open
 Get_int -> return the value of an int field, 
 If it can not find the field inside the file it returns -666, if it can not open the file it returns -667.
 
-## Why 666 and 667 to handle errors? 
-Because many values ​​in configuration files are usually -1 or -2, while 666 and 667 are less common.
+## Why -666 and -667 to handle errors? 
+Because many values ​​in configuration files are usually -1 or -2, while 
+-666 and -667 are less common.
 
 # Español
 
@@ -25,8 +26,9 @@ sino puede encontrar el campo dentro del fichero devuelve -666, sino puede abrir
 get_int -> devuelve el valor de un campo int, 
 si no puede encontrar el campo dentro del fichero devuelve -666, si no puede abrir el fichero devuelve -667.
 
-## ¿Por qué 666 y 667 para manejar errores?
-Muchos valores en archivos de configuración suelen ser -1 o -2, mientras que 666 y 667 son valores menos comunes.
+## ¿Por qué -666 y -667 para manejar errores?
+Muchos valores en archivos de configuración suelen ser -1 o -2, mientras 
+que -666 y -667 son valores menos comunes.
 
 # Example
 
