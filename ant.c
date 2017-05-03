@@ -37,7 +37,7 @@ int get_string(char file_conf[], char subject_i[], char value_i[]) {
 
 	file=fopen(file_conf, "r");
 	if (file==NULL) {
-		return(-2);
+		return(-667);
 
 	}
 
@@ -74,7 +74,7 @@ int get_string(char file_conf[], char subject_i[], char value_i[]) {
  	}
  	
 	fclose(file);
-	return(-1);
+	return(-666);
 }
 
 int get_int(char file_conf[], char subject_i[]) {
@@ -90,7 +90,7 @@ int get_int(char file_conf[], char subject_i[]) {
 	char value[value_size];
 
 	file=fopen(file_conf, "r");
-	if (file==NULL) return(-2);
+	if (file==NULL) return(-667);
 
 	int x, y;	
 	while (!feof(file))
@@ -122,7 +122,7 @@ int get_int(char file_conf[], char subject_i[]) {
  	}
 	
 	fclose(file);
-	return(-1);
+	return(-666);
 }
 
 static void clear_array(char array[], int size) {
